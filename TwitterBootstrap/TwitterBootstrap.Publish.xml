@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\inetpub\lu" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/System.Web.Http.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="pics/1828.jpg" publishTime="01/07/2014 18:37:05" />
+    <file relUrl="bin/System.Web.WebPages.Razor.xml" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="css/bootstrap-theme.min.css" publishTime="01/04/2014 15:19:07" />
+    <file relUrl="pics/1822.jpg" publishTime="01/07/2014 18:37:05" />
+    <file relUrl="Global.asax" publishTime="01/04/2014 15:18:57" />
+    <file relUrl="Views/Home/links.cshtml" publishTime="01/07/2014 21:51:27" />
+    <file relUrl="pics/ban2.jpg" publishTime="01/07/2014 19:42:07" />
+    <file relUrl="bin/TwitterBootstrap.pdb" publishTime="01/07/2014 22:39:06" />
+    <file relUrl="bin/System.Net.Http.WebRequest.xml" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="css/bootstrap.min.css" publishTime="01/04/2014 15:19:07" />
+    <file relUrl="pics/1820.jpg" publishTime="01/07/2014 18:37:05" />
+    <file relUrl="js/bootstrap.min.js" publishTime="01/04/2014 15:19:07" />
+    <file relUrl="bin/TwitterBootstrap.dll" publishTime="01/07/2014 22:39:06" />
+    <file relUrl="pics/ban1.jpg" publishTime="01/07/2014 19:42:07" />
+    <file relUrl="pics/1802.jpg" publishTime="01/04/2014 16:16:15" />
+    <file relUrl="bin/System.Net.Http.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="bin/System.Net.Http.Formatting.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="Views/Home/About.cshtml" publishTime="01/07/2014 22:08:43" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="bin/System.Web.Mvc.xml" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="Views/Home/Loggedin.cshtml" publishTime="01/07/2014 22:42:24" />
+    <file relUrl="bin/System.Web.WebPages.Deployment.xml" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="bin/System.Web.Helpers.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="bin/System.Web.WebPages.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="packages.config" publishTime="01/04/2014 15:18:59" />
+    <file relUrl="bin/System.Web.Http.xml" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="Views/Home/index.cshtml" publishTime="01/07/2014 21:48:12" />
+    <file relUrl="bin/System.Web.Razor.xml" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="bin/System.Web.WebPages.xml" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="bin/System.Web.Http.WebHost.xml" publishTime="01/04/2014 15:18:59" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="bin/System.Web.Helpers.xml" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="css/bootstrap-theme.css" publishTime="01/04/2014 15:19:07" />
+    <file relUrl="js/bootstrap.js" publishTime="01/04/2014 15:19:07" />
+    <file relUrl="bin/System.Web.Mvc.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="bin/System.Net.Http.WebRequest.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="pics/1830.jpg" publishTime="01/07/2014 18:37:05" />
+    <file relUrl="fonts/glyphicons-halflings-regular.svg" publishTime="01/04/2014 15:19:07" />
+    <file relUrl="pics/1826.jpg" publishTime="01/07/2014 18:37:05" />
+    <file relUrl="bin/System.Web.Razor.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="bin/System.Web.WebPages.Deployment.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="bin/System.Web.Http.WebHost.dll" publishTime="01/04/2014 15:18:59" />
+    <file relUrl="bin/System.Net.Http.xml" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="Web.config" publishTime="01/09/2014 12:08:51" />
+    <file relUrl="js/jquery-1.10.2.js" publishTime="01/04/2014 15:21:54" />
+    <file relUrl="bin/System.Net.Http.Formatting.xml" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="pics/banner3.jpg" publishTime="01/07/2014 20:08:01" />
+    <file relUrl="Views/_master.cshtml" publishTime="01/07/2014 22:39:06" />
+    <file relUrl="css/bootstrap.css" publishTime="01/07/2014 21:28:33" />
+    <file relUrl="Views/Web.config" publishTime="01/04/2014 15:18:57" />
+    <file relUrl="bin/System.Web.WebPages.Razor.dll" publishTime="01/04/2014 15:18:58" />
+    <file relUrl="pics/1824.jpg" publishTime="01/07/2014 18:37:05" />
+  </publishProfile>
+</publishData>

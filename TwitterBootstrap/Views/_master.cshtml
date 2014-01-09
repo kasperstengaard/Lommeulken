@@ -1,9 +1,7 @@
 ﻿@{
     Layout = null;
 }
-
 <!DOCTYPE html>
-
 <html>
 <head>
     <title>Twitter Bootstrap</title>
@@ -12,15 +10,10 @@
     <script src="@Url.Content("~/js/jquery-1.10.2.min.js")" type="text/javascript"></script>
 </head>
 <body>
-
-      <div class="container">
-
-
-      <img class="media-object" src="/pics/banner3.jpg" alt="123" height="150" width="1170"/>
-      <br />
-
-
-      <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <img class="media-object" src="/pics/banner3.jpg" alt="123" height="150" width="1170" />
+        <br />
+        <nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
 
 
@@ -39,187 +32,164 @@
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
-
-
-
         <div class="container">
-
-      <div class="row row-offcanvas row-offcanvas-right">
-      <div class="col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
-          
-       <div style= "width:150px">
-
-      <form class="form-signin" role="form">
-        <h4 class="form-signin-heading">Log ind</h2>
-        <input type="text" class="form-control" placeholder="Email address" required autofocus>
-        <input type="password" class="form-control" placeholder="Password" required>
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Husk mig
-        </label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
-
-    </div>
-    <br />
-     <img src="/pics/ban1.jpg" data-src="holder.js/300x200" alt="...">
-
-            <br />      
-                <br />      
-
-
-          <div class="list-group" style = "width:150px">
-            <a href="#" class="list-group-item">Forum</a>
-            <a href="#" class="list-group-item">Kalender</a>
-            <a href="#" class="list-group-item">Medlemsliste</a>
-            <a href="#" class="list-group-item">Tilmeldkonkurrence</a>
-            <a href="#" class="list-group-item">Opret nyhed</a>
-            <a href="#" class="list-group-item">Min brugerprofil</a>
-            <a href="#" class="list-group-item">Mine Fisk</a>
-            <a href="#" class="list-group-item">Ulken tilbyder</a>
-            <a href="#" class="list-group-item">Medlemsliste</a>
-          </div>
-        </div><!--/span-->
-        
-        <div class="col-sm-10">
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          </p>
-
-            <div class="jumbotron" style= "padding:30px">
-            <h2 style="font-size:52px">Klubaften 08-01-2014</h2>
-            <p>Vi smider en film på en fremviser et sted og laver en skålfuld lune popcorn. Det er fiskefilmaften!... </p>
-          </div>
-
-          <h1>Seneste nyt</h1>
-        
-
-      <div class="bs-example">
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-          <img src="/pics/1802.jpg" data-src="holder.js/300x200" alt="...">
-            <div class="caption">
-                 <p>Sandart 76 cm 3,5 kg</p>
-                   <h3>Havørred Kysten på 0 kg. og 61 cm.</h3>
-          <p>For kystfiskere har december måned været en drømmemåned, hvor novembers milde vejrlig er fortsat med uformindsket styrke. Vandtemperaturen er ualmindelig høj for årstiden..</p>
-
+            <div class="row row-offcanvas row-offcanvas-right">
+                <div class="col-xs-2 sidebar-offcanvas" id="sidebar" role="navigation">
+                    <div style="width: 150px">
+                        <form class="form-signin" role="form">
+                        <h4 class="form-signin-heading">
+                            Log ind</h2>
+                            <input type="text" class="form-control" placeholder="Email address" required autofocus>
+                            <input type="password" class="form-control" placeholder="Password" required>
+                            <label class="checkbox">
+                                <input type="checkbox" value="remember-me">
+                                Husk mig
+                            </label>
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">
+                                Sign in</button>
+                        </form>
+                    </div>
+                    <br />
+                    <img src="/pics/ban1.jpg" data-src="holder.js/300x200" alt="...">
+                    <br />
+                    <br />
+                    <div class="list-group" style="width: 150px">
+                        <a href="#" class="list-group-item">Forum</a> <a href="#" class="list-group-item">Kalender</a>
+                        <a href="#" class="list-group-item">Medlemsliste</a> <a href="#" class="list-group-item">
+                            Tilmeldkonkurrence</a> <a href="#" class="list-group-item">Opret nyhed</a> <a href="#"
+                                class="list-group-item">Min brugerprofil</a> <a href="#" class="list-group-item">Mine
+                                    Fisk</a> <a href="#" class="list-group-item">Ulken tilbyder</a> <a href="#" class="list-group-item">
+                                        Medlemsliste</a>
+                    </div>
+                </div>
+                <!--/span-->
+                <div class="col-xs-10">
+                    <p class="pull-right visible-xs">
+                        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">
+                            Toggle nav</button>
+                    </p>
+                    <div class="jumbotron" style="padding: 30px">
+                        <h2 style="font-size: 52px">
+                            Klubaften 08-01-2014</h2>
+                        <p>
+                            Vi smider en film på en fremviser et sted og laver en skålfuld lune popcorn. Det
+                            er fiskefilmaften!...
+                        </p>
+                    </div>
+                    <h1>
+                        Seneste nyt</h1>
+                    <div class="bs-example">
+                        <div class="row">
+                            <div class="col-xs-5 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="/pics/1802.jpg" data-src="holder.js/300x200" alt="...">
+                                    <div class="caption">
+                                        <p>
+                                            Sandart 76 cm 3,5 kg</p>
+                                        <h3>
+                                            Havørred Kysten på 0 kg. og 61 cm.</h3>
+                                        <p>
+                                            For kystfiskere har december måned været en drømmemåned, hvor novembers milde vejrlig
+                                            er fortsat med uformindsket styrke. Vandtemperaturen er ualmindelig høj for årstiden..</p>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col-xs-5 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="/pics/1820.jpg" data-src="holder.js/300x200" alt="...">
+                                    <div class="caption">
+                                        <p>
+                                            Sandart 76 cm 3,5 kg</p>
+                                        <h3>
+                                            Havørred Kysten på 0 kg. og 61 cm.</h3>
+                                        <p>
+                                            For kystfiskere har december måned været en drømmemåned, hvor novembers milde vejrlig
+                                            er fortsat med uformindsket styrke. Vandtemperaturen er ualmindelig høj for årstiden..</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-5 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="/pics/1822.jpg" data-src="holder.js/300x200" alt="...">
+                                    <div class="caption">
+                                        <p>
+                                            Sandart 76 cm 3,5 kg</p>
+                                        <h3>
+                                            Havørred Kysten på 0 kg. og 61 cm.</h3>
+                                        <p>
+                                            For kystfiskere har december måned været en drømmemåned, hvor novembers milde vejrlig
+                                            er fortsat med uformindsket styrke. Vandtemperaturen er ualmindelig høj for årstiden..</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bs-example">
+                        <div class="row">
+                         <div class="col-xs-5 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="/pics/1824.jpg" data-src="holder.js/300x200" alt="...">
+                                    <div class="caption">
+                                        <p>
+                                            Sandart 76 cm 3,5 kg</p>
+                                        <h3>
+                                            En vinterdag i Asger II - 3</h3>
+                                        <p>
+                                            For kystfiskere har december måned været en drømmemåned, hvor novembers milde vejrlig
+                                            er fortsat med uformindsket styrke. Vandtemperaturen er ualmindelig høj for årstiden..</p>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col-xs-5 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="/pics/1826.jpg" data-src="holder.js/300x200" alt="...">
+                                    <div class="caption">
+                                        <p>
+                                            Sandart 76 cm 3,5 kg</p>
+                                        <h3>
+                                            En vinterdag i Asger II - 3</h3>
+                                        <p>
+                                            For kystfiskere har december måned været en drømmemåned, hvor novembers milde vejrlig
+                                            er fortsat med uformindsket styrke. Vandtemperaturen er ualmindelig høj for årstiden..</p>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col-xs-5 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="/pics/1828.jpg" data-src="holder.js/300x200" alt="...">
+                                    <div class="caption">
+                                        <p>
+                                            Sandart 76 cm 3,5 kg</p>
+                                        <h3>
+                                            En vinterdag i Asger II - 3</h3>
+                                        <p>
+                                            For kystfiskere har En vinterdag i Asger II - 3 måned været en drømmemåned, hvor
+                                            novembers milde vejrlig er fortsat med uformindsket styrke. Vandtemperaturen er
+                                            ualmindelig høj for årstiden..</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul id="menu">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Loggedin", "Loggedin", "Home")</li>
+                    </ul>
+                </div>
+                <!--/span-->
             </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img src="/pics/1820.jpg"  data-src="holder.js/300x200" alt="...">
-            <div class="caption">
-                <p>Sandart 76 cm 3,5 kg</p>
-                <h3>Havørred Kysten på 0 kg. og 61 cm.</h3>
-                <p>For kystfiskere har december måned været en drømmemåned, hvor novembers milde vejrlig er fortsat med uformindsket styrke. Vandtemperaturen er ualmindelig høj for årstiden..</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-          <img src="/pics/1822.jpg"  data-src="holder.js/300x200" alt="...">
-            <div class="caption">
-                 <p>Sandart 76 cm 3,5 kg</p>
-                      <h3>Havørred Kysten på 0 kg. og 61 cm.</h3>
-         <p>For kystfiskere har december måned været en drømmemåned, hvor novembers milde vejrlig er fortsat med uformindsket styrke. Vandtemperaturen er ualmindelig høj for årstiden..</p>
-    
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-      <div class="bs-example">
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-          <img src="/pics/1824.jpg" data-src="holder.js/300x200" alt="...">
-            <div class="caption">
-            <p>Sandart 76 cm 3,5 kg</p>
-                   <h3>En vinterdag i Asger II - 3</h3>
-          <p>For kystfiskere har december måned været en drømmemåned, hvor novembers milde vejrlig er fortsat med uformindsket styrke. Vandtemperaturen er ualmindelig høj for årstiden..</p>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-                <img src="/pics/1826.jpg"  data-src="holder.js/300x200" alt="...">
-            <div class="caption">
-            <p>Sandart 76 cm 3,5 kg</p>
-                    <h3>En vinterdag i Asger II - 3</h3>
-       <p>For kystfiskere har december måned været en drømmemåned, hvor novembers milde vejrlig er fortsat med uformindsket styrke. Vandtemperaturen er ualmindelig høj for årstiden..</p>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-          <img src="/pics/1828.jpg"  data-src="holder.js/300x200" alt="...">
-            <div class="caption">
-            <p>Sandart 76 cm 3,5 kg</p>
-            <h3>En vinterdag i Asger II - 3</h3>
-            <p>For kystfiskere har En vinterdag i Asger II - 3 måned været en drømmemåned, hvor novembers milde vejrlig er fortsat med uformindsket styrke. Vandtemperaturen er ualmindelig høj for årstiden..</p>
-    
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-          <ul id="menu">
-                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Loggedin", "Loggedin", "Home")</li>
-                        </ul>
-
-
-
-    
-
-        </div><!--/span-->
-      </div><!--/row-->
-
-      <hr>
-
-
-
-
-      <footer>
+            <!--/row-->
+            <hr>
+            <footer>
         <p>&copy; Lommeulken 2013 - Stengaard Interaction</p>
       </footer>
-
-    </div><!--/.container-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div>
-        @RenderBody() 
-    </div>
-    <script src="@Url.Content("~/js/bootstrap.min.js")"></script>
+        </div>
+        <!--/.container-->
+        <div>
+            @RenderBody()
+        </div>
+        <script src="@Url.Content("~/js/bootstrap.min.js")"></script>
     </div>
 </body>
 </html>
-
-
-
