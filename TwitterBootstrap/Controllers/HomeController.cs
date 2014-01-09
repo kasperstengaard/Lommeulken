@@ -25,5 +25,17 @@ namespace TwitterBootstrap.Controllers
         {
             return View();
         }
+        public ActionResult ShowFish()
+        {
+            return View();
+        }
+        public ActionResult Links()
+        {
+            return View();
+        }
+        public ActionResult Records()
+        {
+            return View();
+        }
     }
 }

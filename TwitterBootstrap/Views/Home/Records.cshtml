@@ -1,0 +1,293 @@
+﻿@{
+    ViewBag.Title = "Records";
+}
+@{
+    ViewBag.Title = "About";
+}
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Bootstrap</title>
+    <link href="@Url.Content("~/css/bootstrap.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/bootstrap-responsive.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/js/jquery-1.10.2.min.js")" type="text/javascript"></script>
+</head>
+<body>
+    <div class="container">
+        <img class="media-object img-responsive" src="/pics/banner3.jpg" />
+        <br />
+        <nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Forside</a></li>
+      <li><a href="#">Rapporter</a></li>
+      <li><a href="#">Artikler</a></li>
+      <li><a href="#">Konkurrencen</a></li>
+      <li><a href="#">Hvem er vi</a></li>
+      <li><a href="#">Klubrekorder</a></li>
+      <li><a href="#">Vandpleje</a></li>
+      <li>@Html.ActionLink("About", "About", "Home")</li>
+      <li><a href="#">Bliv medlem</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+        <div class="container">
+            <div class="row ">
+                <div class="col-xs-12 col-sm-2 col-md-2">
+                    <div>
+                        <form class="form-signin" role="form">
+                        <h4 class="form-signin-heading">
+                            Log ind</h2>
+                            <input type="text" class="form-control" placeholder="Email address" required autofocus>
+                            <input type="password" class="form-control" placeholder="Password" required>
+                            <label class="checkbox">
+                                <input type="checkbox" value="remember-me">
+                                Husk mig
+                            </label>
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">
+                                Sign in</button>
+                        </form>
+                    </div>
+                    <br />
+                    <img src="/pics/ban1.jpg" class="img-responsive" data-src="holder.js/300x200" alt="...">
+                    <br />
+                    <br />
+                </div>
+                <div class="col-xs-12 col-sm-10 col-md-10">
+                    <div class="row ">
+                        <div class="col-md-9">
+                            
+                               <img src="/pics/1682.jpg" class="img-responsive">
+
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Nummer
+                                        </th>
+                                        <th>
+                                            Længde
+                                        </th>
+                                        <th>
+                                            Vægt
+                                        </th>
+                                        <th>
+                                            Fisker
+                                        </th>
+                                        <th>
+                                            Dato
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            1
+                                        </td>
+                                        <td>
+                                            115 cm
+                                        </td>
+                                        <td>
+                                            11 kg
+                                        </td>
+                                        <td>
+                                            Andreas Svarer
+                                        </td>
+                                        <td>
+                                            21-9-2013
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            111 cm
+                                        </td>
+                                        <td>
+                                            11 kg
+                                        </td>
+                                        <td>
+                                            Kasper Bjerre
+                                        </td>
+                                        <td>
+                                            26-3-2009
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>
+                                            111 cm
+                                        </td>
+                                        <td>
+                                            11 kg
+                                        </td>
+                                        <td>
+                                            Kasper Bjerre
+                                        </td>
+                                        <td>
+                                            26-3-2009
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            4
+                                        </td>
+                                        <td>
+                                            111 cm
+                                        </td>
+                                        <td>
+                                            11 kg
+                                        </td>
+                                        <td>
+                                            Kasper Bjerre
+                                        </td>
+                                        <td>
+                                            26-3-2009
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            5
+                                        </td>
+                                        <td>
+                                            111 cm
+                                        </td>
+                                        <td>
+                                            11 kg
+                                        </td>
+                                        <td>
+                                            Kasper Bjerre
+                                        </td>
+                                        <td>
+                                            26-3-2009
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            6
+                                        </td>
+                                        <td>
+                                            111 cm
+                                        </td>
+                                        <td>
+                                            11 kg
+                                        </td>
+                                        <td>
+                                            Kasper Bjerre
+                                        </td>
+                                        <td>
+                                            26-3-2009
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            7
+                                        </td>
+                                        <td>
+                                            111 cm
+                                        </td>
+                                        <td>
+                                            11 kg
+                                        </td>
+                                        <td>
+                                            Kasper Bjerre
+                                        </td>
+                                        <td>
+                                            26-3-2009
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            8
+                                        </td>
+                                        <td>
+                                            111 cm
+                                        </td>
+                                        <td>
+                                            11 kg
+                                        </td>
+                                        <td>
+                                            Kasper Bjerre
+                                        </td>
+                                        <td>
+                                            26-3-2009
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            9
+                                        </td>
+                                        <td>
+                                            111 cm
+                                        </td>
+                                        <td>
+                                            11 kg
+                                        </td>
+                                        <td>
+                                            Kasper Bjerre
+                                        </td>
+                                        <td>
+                                            26-3-2009
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            10
+                                        </td>
+                                        <td>
+                                            111 cm
+                                        </td>
+                                        <td>
+                                            11 kg
+                                        </td>
+                                        <td>
+                                            Kasper Bjerre
+                                        </td>
+                                        <td>
+                                            26-3-2009
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item">Aborre</a> <a href="#" class="list-group-item">Brasen</a>
+                                <a href="#" class="list-group-item">Bækøred</a> <a href="#" class="list-group-item">
+                                    Fladfisk</a> <a href="#" class="list-group-item">Gedde</a> <a href="#" class="list-group-item">
+                                        Havbars</a> <a href="#" class="list-group-item">Havørred kysten</a> <a href="#" class="list-group-item">
+                                            Havørred åen</a> <a href="#" class="list-group-item">Helt</a> <a href="#" class="list-group-item">
+                                                Hornfisk</a> <a href="#" class="list-group-item">Karpe</a> <a href="#" class="list-group-item">
+                                                    Laks</a> <a href="#" class="list-group-item">Makrel</a> <a href="#" class="list-group-item">
+                                                        Multe</a> <a href="#" class="list-group-item">Pighvar</a>
+                                <a href="#" class="list-group-item">Put & Take ørred</a> <a href="#" class="list-group-item">
+                                    Rimte</a> <a href="#" class="list-group-item">Sandart</a> <a href="#" class="list-group-item">
+                                        Skalle</a> <a href="#" class="list-group-item">Suder</a> <a href="#" class="list-group-item">
+                                            Søørred</a> <a href="#" class="list-group-item">Torsk</a> <a href="#" class="list-group-item">
+                                                Ulk</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/row-->
+            <hr>
+            <footer>
+        <p>&copy; Lommeulken 2013 - Stengaard Interaction</p>
+      </footer>
+        </div>
+        <!--/.container-->
+        <script src="@Url.Content("~/js/bootstrap.min.js")"></script>
+    </div>
+</body>
+</html>

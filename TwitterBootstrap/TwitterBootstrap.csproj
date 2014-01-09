@@ -123,6 +123,7 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-1.10.2.js" />
+    <Content Include="pics\1682.jpg" />
     <Content Include="pics\1802.jpg" />
     <Content Include="pics\1820.jpg" />
     <Content Include="pics\1822.jpg" />
@@ -130,6 +131,7 @@
     <Content Include="pics\1826.jpg" />
     <Content Include="pics\1828.jpg" />
     <Content Include="pics\1830.jpg" />
+    <Content Include="pics\1834.JPG" />
     <Content Include="pics\ban1.jpg" />
     <Content Include="pics\ban2.jpg" />
     <Content Include="pics\banner3.jpg" />
@@ -156,8 +158,10 @@
     <Content Include="Views\_master.cshtml" />
     <Content Include="Views\Home\index.cshtml" />
     <Content Include="Views\Home\Loggedin.cshtml" />
-    <Content Include="Views\Home\links.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\ShowFish.cshtml" />
+    <Content Include="Views\Home\Links.cshtml" />
+    <Content Include="Views\Home\Records.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
