@@ -37,5 +37,13 @@ namespace TwitterBootstrap.Controllers
         {
             return View();
         }
+        public ActionResult Whois()
+        {
+            return View();
+        }
+        public ActionResult BecomeMember()
+        {
+            return View();
+        }
     }
 }

@@ -135,6 +135,10 @@
     <Content Include="pics\ban1.jpg" />
     <Content Include="pics\ban2.jpg" />
     <Content Include="pics\banner3.jpg" />
+    <Content Include="pics\bestyr.jpg" />
+    <Content Include="pics\jens.jpg" />
+    <Content Include="pics\KasperSS.jpg" />
+    <Content Include="pics\Laurits.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -162,6 +166,8 @@
     <Content Include="Views\Home\ShowFish.cshtml" />
     <Content Include="Views\Home\Links.cshtml" />
     <Content Include="Views\Home\Records.cshtml" />
+    <Content Include="Views\Home\Whois.cshtml" />
+    <Content Include="Views\Home\BecomeMember.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
